@@ -22,3 +22,11 @@ El esquema que plantearía para realizar dicho proyecto es, un circuito cerrado 
 3° Tercer estado, Riego, El sistema al detectar un nivel de humedad bajo activara algún mecanismo físico para que durante cierto tiempo riegue la tierra. Una vez finalizado volverá al estado de reposo.
 
 4° Cuarto estado, Mensaje Alarma, el sistema activara una alarma (led rojo) cuando luego del riego la humedad de la tierra se mantenga igual, en resumidas es cuando no halla agua en el regador, luego de este estado se devolverá al estado de espera.
+
+A medida que me puse a realizar el proyecto tuve que "correjir" o aclarar ciertas cosas:
+
+Primero, el sensor de humedad, el funcionamiento en grandes palabras del sensor de humedad es generar una corriente electrica que mida la conductividad que hay en el suelo, si es alta significa que hay humedad, si es baja significa que el suelo esta seco. Por eso y que los sensores que vi son de arduino, para facilitar la lectura y problemas decidi utilizar en su remplazo un potenciometro que basicamente puede utilizarse de la misma manera midiendo el voltaje. De ahi hago una estimacion y realize las comparaciones.
+
+Segundo, el sistema de riego, el sistema de riego se puede hacer de varias maneras, una bomba, una valvula, un mecanismo mecanico simple, etc. Por eso y para facilitarme la tarea un poco simplemente puse un led verde que me indique cuando esta trabajando el sistema de riego.
+
+Tercero y ultimo, los tiempos de espera, para que no este en constante uso el sensor de humedad coloque un tiempo de espera suficiente para que de tiempo a tanto humedeserce el suelo como para el descanso del sensor. Estos tiempos son en conveniencia para todos los estados, tiempo de espera es de unos 5 ~ min, el del sensor de unos 10 ~ seg, y el de riego de unos 30 ~ seg.
