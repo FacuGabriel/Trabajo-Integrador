@@ -47,3 +47,12 @@ Video:
 https://youtu.be/-fW3sTUmmqc
 
 Aclaraciones, acorte el tiempo de espera por practicidad en el video, el humbral de humedad es que si es menor a 20% riega.
+
+---
+
+Segundo Video corregido:
+
+https://youtu.be/oBt-rtpcVBM
+
+Aclaraciones, disminui aun mas el tiempo de espera (10s), medicion (0.1sg) y riego (5sg), para asi mostrar mejor como se activa alrededor del humbral de 20%.
+Primero muestro como se activa cuando el suelo esta seco, segundo como se activa la alarma si luego de regar sigue seco el suelo (en caso de que no haya agua en el sistema de riego, o alguna averia), luego como se desactiva la alarma si vuelve a estar humedo y ademas el como la alarma no afecta el funcionamiento del sistema.
