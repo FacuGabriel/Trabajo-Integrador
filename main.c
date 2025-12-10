@@ -8,8 +8,8 @@ int main(void) {
 
     while (1) {
         
-        if (Get_Tick() - last_time >= 100) {
-            last_time = Get_Tick();
+        if (ms_ticks - last_time >= 100) {
+            last_time = ms_ticks;
             Maquina_Estados();
         }
     }
