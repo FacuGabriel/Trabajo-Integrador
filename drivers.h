@@ -4,9 +4,9 @@
 #define UMBRAL_SECO     20
 #define UMBRAL_OK       60
 
-#define TIEMPO_ESPERA_MS   30000  
-#define TIEMPO_LECTURA_MS  10000    
-#define TIEMPO_RIEGO_MAX   30000  
+#define TIEMPO_ESPERA_MS   10000  
+#define TIEMPO_LECTURA_MS  100    
+#define TIEMPO_RIEGO_MAX   5000  
 
 typedef enum {
     ESTADO_ESPERA,

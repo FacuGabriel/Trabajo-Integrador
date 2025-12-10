@@ -35,7 +35,7 @@
        sensor.mode = avr_ADC_MODE_Single_Conversion;
        sensor.prescaler = avr_ADC_Prescaler_32;
        sensor.resolution = avr_ADC_RES_10Bit;
-       sensor.reference = avr_ADC_REF_Internal;
+       sensor.reference = avr_ADC_REF_AVcc;
        sensor.channel = avr_ADC_canal0;
        sensor.avr_adc_handler = 0;
        init_adc(sensor);
